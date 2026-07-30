@@ -1,0 +1,18 @@
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    int n[2][3]={{1,2,6},{2,3,5}};
+    cout<<"2D Array"<<endl;
+    for(int i=0; i<2; i++) {
+        for(int j=0; j<3; j++) {
+            cout<<n[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
