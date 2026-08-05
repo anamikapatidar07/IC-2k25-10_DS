@@ -1,0 +1,48 @@
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, m;
+
+    cout << "Enter number of rows: ";
+    cin >> n;
+    
+     cout << "Enter number of columns: ";
+    cin >> m;
+
+    int arr[n][m];
+    int largest = arr[3][4];
+    cout << "Enter array elements: ";
+    for (int i = 0; i < n; i++) {
+        for(int j =0; j < m; j++) {
+              cin >> arr[i][j];
+        }
+      
+    }
+
+    for (int i = 0; i < n; i++) {
+        for(int j = 0; j < m; j++) {
+        if (arr[i][j] > largest) {
+            largest = arr[i][j];
+        }
+    }
+    }
+
+    cout << "Largest element = " << largest;
+
+    return 0;
+}
+    
+    
+    
+    OUTPUT
+    Enter number of rows: 2
+    Enter number of columns: 2
+    Enter array elements: 1 2 3
+     2 3 4
+    Largest element: 4
+
+    
+    
