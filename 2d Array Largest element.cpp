@@ -37,12 +37,12 @@ int main() {
     
     
     
-    OUTPUT
-    Enter number of rows: 2
-    Enter number of columns: 2
-    Enter array elements: 1 2 3
-     2 3 4
-    Largest element: 4
+    // OUTPUT
+    // Enter number of rows: 2
+    // Enter number of columns: 2
+    // Enter array elements: 1 2 3
+    //  2 3 4
+    // Largest element: 4
 
     
     
