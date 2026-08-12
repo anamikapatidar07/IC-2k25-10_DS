@@ -33,14 +33,14 @@ int main()
     return 0;
 }
 
-OUTPUT
-Enter number of rows: 3
-Enter number of columns: 3
-Enter elements: 
-1 2 3
-4 5 6
-7 8 9
-Smallest number: 1
+// OUTPUT
+// Enter number of rows: 3
+// Enter number of columns: 3
+// Enter elements: 
+// 1 2 3
+// 4 5 6
+// 7 8 9
+// Smallest number: 1
 
 
 
