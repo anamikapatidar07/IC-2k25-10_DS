@@ -26,10 +26,10 @@ int main()
     return 0;
 }
 
-OUTPUT
-Enter number of elements: 3
-Enter elements: 34 56 78
-smallest number: 34
+// OUTPUT
+// Enter number of elements: 3
+// Enter elements: 34 56 78
+// smallest number: 34
 
 
 
